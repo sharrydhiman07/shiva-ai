@@ -30,7 +30,7 @@ requirements.txt	Python dependencies to install via pip
 Clone the repo
 
 
-git clone https://github.com/your-username/shiva-ai.git
+git clone 
 cd shiva-ai
 Install dependencies
 
