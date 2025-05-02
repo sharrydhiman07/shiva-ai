@@ -10,7 +10,7 @@ logger = logging.getLogger(__name__)
 
 # Hugging Face API configuration
 API_URL = "https://api-inference.huggingface.co/models/Qwen/Qwen1.5-0.5B-Chat"
-API_TOKEN = "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"
+API_TOKEN = "API_token"
 
 def query_api(payload: dict, max_retries: int = 3, retry_delay: int = 2) -> dict:
     """
