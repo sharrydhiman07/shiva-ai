@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 
 # Hugging Face TTS API configuration - Using a deep male voice model
 API_URL = "https://api-inference.huggingface.co/models/facebook/mms-tts-hin"
-API_TOKEN = "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"
+API_TOKEN = "API token"
 
 def query_api(payload: dict, max_retries: int = 3, retry_delay: int = 2) -> Optional[bytes]:
     """
